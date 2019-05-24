@@ -1,7 +1,7 @@
 /* @flow */
 
 import React, { PureComponent } from 'react';
-
+import PropTypes from 'prop-types';
 import type {
   NavigationScreenProp,
   NavigationState,
@@ -17,7 +17,7 @@ type Props = {
 
 export default class SceneView extends PureComponent<void, Props, void> {
   static childContextTypes = {
-    navigation: React.PropTypes.object.isRequired,
+    navigation: PropTypes.object.isRequired,
   };
 
   props: Props;
