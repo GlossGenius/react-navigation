@@ -184,7 +184,7 @@ class CardStack extends Component<DefaultProps, Props, void> {
     /**
      * Custom style applied to the cards stack.
      */
-    style: View.propTypes.style,
+//     style: View.propTypes.style,
   };
 
   static defaultProps: DefaultProps = {
