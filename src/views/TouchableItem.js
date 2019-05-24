@@ -45,7 +45,7 @@ export default class TouchableItem extends Component<DefaultProps, Props, void> 
     pressColor: PropTypes.string,
     activeOpacity: PropTypes.number,
     children: PropTypes.node.isRequired,
-    style: View.propTypes.style,
+//     style: View.propTypes.style,
   };
 
   static defaultProps = {
